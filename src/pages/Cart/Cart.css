@@ -1,0 +1,101 @@
+
+.Cart-container {
+  width: 100%;
+}
+.Cart-header {
+  /* background-color: blueviolet; */
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.header2 {
+  /* background-color: blueviolet; */
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Cart-item {
+  width: 80%;
+  margin-top: 2em;
+}
+.Cart-mainrow {
+  /* background-color: lavender; */
+  height: 250px;
+  display: flex;
+  align-items: center;
+  border-radius: 18px;
+  /* box-shadow: 3px 3px lavender; */
+}
+.Cart-col1 img {
+  max-width: fit-content;
+  max-height: fit-content;
+  border-radius: 10px;
+  /* background-color: blanchedalmond; */
+}
+.Cart-col2 {
+  /* background-color: azure; */
+  border-radius: 14px;
+  padding: 10px;
+}
+.Cart-item-name {
+  outline: none;
+  text-transform: capitalize;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+}
+.Cart-item-name a {
+  text-decoration: none;
+  color: black;
+}
+.Cart-item-price {
+  order: -1;
+  text-align: right;
+  align-self: flex-end;
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.Cart-order-qty {
+  outline: none;
+  margin: 10px 10px;
+}
+.Cart-order-qty select,
+option {
+  /* background-color: bisque; */
+  border-radius: 15px;
+  outline: none;
+  align-items: center;
+}
+.Cart-order-options {
+  display: flex;
+  flex-direction: row;
+  width: 55%;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: brown; */
+  padding: 10px;
+}
+.Cart-pricefooter {
+  min-width: fit-content;
+  margin: 10px auto;
+  width: 80%;
+  margin-top: 8em;
+  /* background-color: aqua; */
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px;
+}
+.Cart-checkout {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+

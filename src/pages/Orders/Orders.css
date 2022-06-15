@@ -1,0 +1,87 @@
+.orders-container {
+  width: 100%;
+}
+.orders-container h1 {
+  text-align: center;
+  padding: 20px;
+}
+/* .orders-filterSearch {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px;
+} */
+.orders-search {
+  outline: none;
+  height: 2.5em;
+  border-radius: 8px;
+  font-size: 15px;
+  align-self: center;
+}
+.orders-search input[type="text"] {
+  padding: 6px;
+  width: 250px;
+  border-radius: 10px;
+  margin: 0 6px;
+  outline: none;
+} 
+/*
+.orders-search button {
+  padding: 6px;
+  border-radius: 10px;
+  background-color: blue;
+  color: aliceblue;
+}
+.orders-search button:hover {
+  background-color: goldenrod;
+  color: black;
+} */
+.orders-filter {
+  padding: 10px;
+  outline: none;
+}
+.orders-filter select {
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.orders-table {
+  width: 80%;
+  margin-top: 5em;
+}
+.orders-row {
+  /* background-color: lavender; */
+  display: flex;
+  align-items: center;
+  border-radius: 18px;
+}
+
+.col1 {
+  padding: 4%;
+  width: 30%;
+}
+.col1 img {
+  max-width: fit-content;
+  max-height: fit-content;
+  border-radius: 10px;
+}
+
+.order-item-name {
+  outline: none;
+  text-transform: capitalize;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: x-large;
+}
+.order-item-name a {
+  text-decoration: none;
+  color: black;
+}
+.col3 Button{
+  margin: 10px;
+}

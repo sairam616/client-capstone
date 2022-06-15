@@ -1,0 +1,46 @@
+
+.shopcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  place-content: space-between;
+justify-content: center !important;
+}
+.shopnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  cursor: pointer;
+    
+}
+.shopNavLink .shoplink{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em;
+    font-size: 1em;
+    text-align: right;
+}
+
+@media only screen and (min-width: 768px) {
+ 
+  .navbar .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 180px auto;
+    grid-template-columns: 180px auto;
+    -webkit-box-pack: unset;
+    -ms-flex-pack: unset;
+    justify-content: unset;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=main.css.map */

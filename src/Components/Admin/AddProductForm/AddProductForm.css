@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+@import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
+
+.upload-testbox {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  color: #666;
+  line-height: 22px;
+}
+.upload-title {
+  position: absolute;
+  margin: 0;
+  line-height: 42px;
+  font-size: 42px;
+  color: #fff;
+  z-index: 2;
+}
+.upload-testbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  padding: 20px;
+}
+.upload-form {
+  width: 70%;
+  padding: 20px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 0 25px 0 #d6e0f5;
+}
+.upload-banner {
+  position: relative;
+  height: 300px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.upload-banner::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.upload-item input:hover,
+.upload-item select:hover,
+.upload-item textarea:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 0 6px 0 #d6e0f5;
+}
+.upload-item {
+  position: relative;
+  margin: 10px 0;
+}
+.upload-select {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border-radius: 0.3em;
+  border: 1px solid grey;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.upload-btn-div {
+  margin-top: 10px;
+  text-align: center;
+}
+.upload-btn {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #0087cc;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+.upload-btn:hover {
+  background: #6eb8dd;
+}
+@media (min-width: 568px) {
+  .upload-item-name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
