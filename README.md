@@ -69,3 +69,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # CodersAssemble
+
+## Run this code to deploy a E-commerce website.
+
+## After running the server code, download and run this code
+
+## npm i or sudo npm i(enter your local system password) --> do this to install all the packages
+
+## npm start
