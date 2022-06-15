@@ -76,3 +76,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## npm i or sudo npm i(enter your local system password) --> do this to install all the packages
 
 ## npm start
+
+
+
+## Contact the OWNER for Server-Side Code ##
+
+#### THANK YOU ####
